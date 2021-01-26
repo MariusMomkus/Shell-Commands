@@ -1,0 +1,20 @@
+#!/bin/bash
+#user enters file name
+echo "enter the first file"
+read a
+echo "enter the second file"
+read b
+#first file count
+count1=$(wc -l < $a)
+#second file count
+count2=$(wc -l < $b)
+#compare the two files
+if [ $f -gt $d ]
+then
+echo $a " is bigger"
+elif [ $d -gt $f ]
+then
+echo $b " is bigger"
+else
+echo "these files are equal"
+fi
