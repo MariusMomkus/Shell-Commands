@@ -1,2 +1,2 @@
 # OS
-Linux Basic Commands
+Shell Basic Commands
